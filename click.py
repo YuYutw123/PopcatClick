@@ -10,7 +10,7 @@ browser = webdriver.Chrome(options=site)
 
 url = 'https://popcat.click' #給網址
 browser.get(url) #抓網址
-browser.maximize_window() #視窗最大話
+browser.maximize_window() #視窗最大化
 sleep(2)#怕有人網頁還沒跑好，所以睡個兩秒
 
 while 1:

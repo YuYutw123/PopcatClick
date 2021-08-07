@@ -13,6 +13,7 @@ browser.get(url) #抓網址
 browser.maximize_window() #視窗最大化
 sleep(2)#怕有人網頁還沒跑好，所以睡個兩秒
 
+#下面是無限迴圈
 while 1:
     browser.find_element_by_xpath('//*[@id="app"]/img').click() #我是抓標題POPCAT的xpath來點
     browser.find_element_by_xpath('//*[@id="app"]/img').click()

@@ -3,10 +3,11 @@ from time import sleep
 from selenium.webdriver.common.action_chains import ActionChains #下面這兩個後來沒用到ㄌ
 import pyautogui #下面這兩個後來沒用到ㄌ
 
+chromeDriverPath = r"chromedriver.exe"
 site = webdriver.ChromeOptions()
 # site
 
-browser = webdriver.Chrome(options=site) 
+browser = webdriver.Chrome(executable_path=chromeDriverPath) 
 
 url = 'https://popcat.click' #給網址
 browser.get(url) #抓網址

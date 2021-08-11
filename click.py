@@ -18,4 +18,4 @@ sleep(2)#怕有人網頁還沒跑好，所以睡個兩秒
 while 1:
     browser.find_element_by_xpath('//*[@id="app"]/img').click() #我是抓標題POPCAT的xpath來點
     browser.find_element_by_xpath('//*[@id="app"]/img').click()
-    sleep(0.01) #睡覺
+    sleep(0.03) #睡覺

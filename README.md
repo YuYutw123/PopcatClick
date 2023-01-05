@@ -23,7 +23,7 @@
 既然是要跑網頁，我首先想到的是python的爬蟲，雖然對python不甚熟悉，但高一社團課時由稍微接觸過，了解可以用xpath抓到想要的元素，再用指令去點擊，點擊頻率則用sleep控制。
 
 ### 程式碼
-```python=
+```python
 from selenium import webdriver
 from time import sleep
 
